@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CDCAE742582242C006D1420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE732582242C006D1420 /* AppDelegate.m */; };
+		4CDCAE772582242C006D1420 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE762582242C006D1420 /* SceneDelegate.m */; };
+		4CDCAE7A2582242C006D1420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE792582242C006D1420 /* ViewController.m */; };
+		4CDCAE7D2582242C006D1420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCAE7B2582242C006D1420 /* Main.storyboard */; };
+		4CDCAE7F25822430006D1420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCAE7E25822430006D1420 /* Assets.xcassets */; };
+		4CDCAE8225822430006D1420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCAE8025822430006D1420 /* LaunchScreen.storyboard */; };
+		4CDCAE8525822430006D1420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE8425822430006D1420 /* main.m */; };
+		4CDCAE8F25822431006D1420 /* WDAudioMuteSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE8E25822431006D1420 /* WDAudioMuteSwitchTests.m */; };
+		4CDCAE9A25822431006D1420 /* WDAudioMuteSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE9925822431006D1420 /* WDAudioMuteSwitchUITests.m */; };
+		4CDCAEAC2582246A006D1420 /* WDAudioMuteSwitchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAEAB2582246A006D1420 /* WDAudioMuteSwitchManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CDCAE8B25822431006D1420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDCAE672582242C006D1420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDCAE6E2582242C006D1420;
+			remoteInfo = WDAudioMuteSwitch;
+		};
+		4CDCAE9625822431006D1420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CDCAE672582242C006D1420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDCAE6E2582242C006D1420;
+			remoteInfo = WDAudioMuteSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CDCAE6F2582242C006D1420 /* WDAudioMuteSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDAudioMuteSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDCAE722582242C006D1420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CDCAE732582242C006D1420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CDCAE752582242C006D1420 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4CDCAE762582242C006D1420 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4CDCAE782582242C006D1420 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CDCAE792582242C006D1420 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CDCAE7C2582242C006D1420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CDCAE7E25822430006D1420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CDCAE8125822430006D1420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CDCAE8325822430006D1420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDCAE8425822430006D1420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CDCAE8A25822431006D1420 /* WDAudioMuteSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDAudioMuteSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDCAE8E25822431006D1420 /* WDAudioMuteSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAudioMuteSwitchTests.m; sourceTree = "<group>"; };
+		4CDCAE9025822431006D1420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDCAE9525822431006D1420 /* WDAudioMuteSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDAudioMuteSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CDCAE9925822431006D1420 /* WDAudioMuteSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAudioMuteSwitchUITests.m; sourceTree = "<group>"; };
+		4CDCAE9B25822431006D1420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDCAEAA2582246A006D1420 /* WDAudioMuteSwitchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDAudioMuteSwitchManager.h; sourceTree = "<group>"; };
+		4CDCAEAB2582246A006D1420 /* WDAudioMuteSwitchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAudioMuteSwitchManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CDCAE6C2582242C006D1420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCAE8725822431006D1420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCAE9225822431006D1420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CDCAE662582242C006D1420 = {
+			isa = PBXGroup;
+			children = (
+				4CDCAE712582242C006D1420 /* WDAudioMuteSwitch */,
+				4CDCAE8D25822431006D1420 /* WDAudioMuteSwitchTests */,
+				4CDCAE9825822431006D1420 /* WDAudioMuteSwitchUITests */,
+				4CDCAE702582242C006D1420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CDCAE702582242C006D1420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCAE6F2582242C006D1420 /* WDAudioMuteSwitch.app */,
+				4CDCAE8A25822431006D1420 /* WDAudioMuteSwitchTests.xctest */,
+				4CDCAE9525822431006D1420 /* WDAudioMuteSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CDCAE712582242C006D1420 /* WDAudioMuteSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCAE722582242C006D1420 /* AppDelegate.h */,
+				4CDCAE732582242C006D1420 /* AppDelegate.m */,
+				4CDCAE752582242C006D1420 /* SceneDelegate.h */,
+				4CDCAE762582242C006D1420 /* SceneDelegate.m */,
+				4CDCAE782582242C006D1420 /* ViewController.h */,
+				4CDCAE792582242C006D1420 /* ViewController.m */,
+				4CDCAEAA2582246A006D1420 /* WDAudioMuteSwitchManager.h */,
+				4CDCAEAB2582246A006D1420 /* WDAudioMuteSwitchManager.m */,
+				4CDCAE7B2582242C006D1420 /* Main.storyboard */,
+				4CDCAE7E25822430006D1420 /* Assets.xcassets */,
+				4CDCAE8025822430006D1420 /* LaunchScreen.storyboard */,
+				4CDCAE8325822430006D1420 /* Info.plist */,
+				4CDCAE8425822430006D1420 /* main.m */,
+			);
+			path = WDAudioMuteSwitch;
+			sourceTree = "<group>";
+		};
+		4CDCAE8D25822431006D1420 /* WDAudioMuteSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCAE8E25822431006D1420 /* WDAudioMuteSwitchTests.m */,
+				4CDCAE9025822431006D1420 /* Info.plist */,
+			);
+			path = WDAudioMuteSwitchTests;
+			sourceTree = "<group>";
+		};
+		4CDCAE9825822431006D1420 /* WDAudioMuteSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CDCAE9925822431006D1420 /* WDAudioMuteSwitchUITests.m */,
+				4CDCAE9B25822431006D1420 /* Info.plist */,
+			);
+			path = WDAudioMuteSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CDCAE6E2582242C006D1420 /* WDAudioMuteSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDCAE9E25822431006D1420 /* Build configuration list for PBXNativeTarget "WDAudioMuteSwitch" */;
+			buildPhases = (
+				4CDCAE6B2582242C006D1420 /* Sources */,
+				4CDCAE6C2582242C006D1420 /* Frameworks */,
+				4CDCAE6D2582242C006D1420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDAudioMuteSwitch;
+			productName = WDAudioMuteSwitch;
+			productReference = 4CDCAE6F2582242C006D1420 /* WDAudioMuteSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CDCAE8925822431006D1420 /* WDAudioMuteSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDCAEA125822431006D1420 /* Build configuration list for PBXNativeTarget "WDAudioMuteSwitchTests" */;
+			buildPhases = (
+				4CDCAE8625822431006D1420 /* Sources */,
+				4CDCAE8725822431006D1420 /* Frameworks */,
+				4CDCAE8825822431006D1420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDCAE8C25822431006D1420 /* PBXTargetDependency */,
+			);
+			name = WDAudioMuteSwitchTests;
+			productName = WDAudioMuteSwitchTests;
+			productReference = 4CDCAE8A25822431006D1420 /* WDAudioMuteSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CDCAE9425822431006D1420 /* WDAudioMuteSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CDCAEA425822431006D1420 /* Build configuration list for PBXNativeTarget "WDAudioMuteSwitchUITests" */;
+			buildPhases = (
+				4CDCAE9125822431006D1420 /* Sources */,
+				4CDCAE9225822431006D1420 /* Frameworks */,
+				4CDCAE9325822431006D1420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDCAE9725822431006D1420 /* PBXTargetDependency */,
+			);
+			name = WDAudioMuteSwitchUITests;
+			productName = WDAudioMuteSwitchUITests;
+			productReference = 4CDCAE9525822431006D1420 /* WDAudioMuteSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CDCAE672582242C006D1420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					4CDCAE6E2582242C006D1420 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4CDCAE8925822431006D1420 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4CDCAE6E2582242C006D1420;
+					};
+					4CDCAE9425822431006D1420 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 4CDCAE6E2582242C006D1420;
+					};
+				};
+			};
+			buildConfigurationList = 4CDCAE6A2582242C006D1420 /* Build configuration list for PBXProject "WDAudioMuteSwitch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CDCAE662582242C006D1420;
+			productRefGroup = 4CDCAE702582242C006D1420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDCAE6E2582242C006D1420 /* WDAudioMuteSwitch */,
+				4CDCAE8925822431006D1420 /* WDAudioMuteSwitchTests */,
+				4CDCAE9425822431006D1420 /* WDAudioMuteSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CDCAE6D2582242C006D1420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCAE8225822430006D1420 /* LaunchScreen.storyboard in Resources */,
+				4CDCAE7F25822430006D1420 /* Assets.xcassets in Resources */,
+				4CDCAE7D2582242C006D1420 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCAE8825822431006D1420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCAE9325822431006D1420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CDCAE6B2582242C006D1420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCAE7A2582242C006D1420 /* ViewController.m in Sources */,
+				4CDCAE742582242C006D1420 /* AppDelegate.m in Sources */,
+				4CDCAE8525822430006D1420 /* main.m in Sources */,
+				4CDCAE772582242C006D1420 /* SceneDelegate.m in Sources */,
+				4CDCAEAC2582246A006D1420 /* WDAudioMuteSwitchManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCAE8625822431006D1420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCAE8F25822431006D1420 /* WDAudioMuteSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDCAE9125822431006D1420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CDCAE9A25822431006D1420 /* WDAudioMuteSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDCAE8C25822431006D1420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDCAE6E2582242C006D1420 /* WDAudioMuteSwitch */;
+			targetProxy = 4CDCAE8B25822431006D1420 /* PBXContainerItemProxy */;
+		};
+		4CDCAE9725822431006D1420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CDCAE6E2582242C006D1420 /* WDAudioMuteSwitch */;
+			targetProxy = 4CDCAE9625822431006D1420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CDCAE7B2582242C006D1420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDCAE7C2582242C006D1420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CDCAE8025822430006D1420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CDCAE8125822430006D1420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CDCAE9C25822431006D1420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CDCAE9D25822431006D1420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDCAE9F25822431006D1420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WDAudioMuteSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDAudioMuteSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CDCAEA025822431006D1420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WDAudioMuteSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDAudioMuteSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CDCAEA225822431006D1420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDAudioMuteSwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDAudioMuteSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDAudioMuteSwitch.app/WDAudioMuteSwitch";
+			};
+			name = Debug;
+		};
+		4CDCAEA325822431006D1420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDAudioMuteSwitchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDAudioMuteSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDAudioMuteSwitch.app/WDAudioMuteSwitch";
+			};
+			name = Release;
+		};
+		4CDCAEA525822431006D1420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDAudioMuteSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDAudioMuteSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDAudioMuteSwitch;
+			};
+			name = Debug;
+		};
+		4CDCAEA625822431006D1420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZPP94SLYH;
+				INFOPLIST_FILE = WDAudioMuteSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hetao101.WDJPEGEncoder.com.WDAudioMuteSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WDAudioMuteSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CDCAE6A2582242C006D1420 /* Build configuration list for PBXProject "WDAudioMuteSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCAE9C25822431006D1420 /* Debug */,
+				4CDCAE9D25822431006D1420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDCAE9E25822431006D1420 /* Build configuration list for PBXNativeTarget "WDAudioMuteSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCAE9F25822431006D1420 /* Debug */,
+				4CDCAEA025822431006D1420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDCAEA125822431006D1420 /* Build configuration list for PBXNativeTarget "WDAudioMuteSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCAEA225822431006D1420 /* Debug */,
+				4CDCAEA325822431006D1420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CDCAEA425822431006D1420 /* Build configuration list for PBXNativeTarget "WDAudioMuteSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CDCAEA525822431006D1420 /* Debug */,
+				4CDCAEA625822431006D1420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CDCAE672582242C006D1420 /* Project object */;
+}
