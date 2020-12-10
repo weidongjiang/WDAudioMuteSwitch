@@ -17,6 +17,7 @@
 		4CDCAE8F25822431006D1420 /* WDAudioMuteSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE8E25822431006D1420 /* WDAudioMuteSwitchTests.m */; };
 		4CDCAE9A25822431006D1420 /* WDAudioMuteSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAE9925822431006D1420 /* WDAudioMuteSwitchUITests.m */; };
 		4CDCAEAC2582246A006D1420 /* WDAudioMuteSwitchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDCAEAB2582246A006D1420 /* WDAudioMuteSwitchManager.m */; };
+		4CDCAEBD258227C7006D1420 /* detection.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 4CDCAEBC258227C7006D1420 /* detection.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4CDCAE9B25822431006D1420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDCAEAA2582246A006D1420 /* WDAudioMuteSwitchManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDAudioMuteSwitchManager.h; sourceTree = "<group>"; };
 		4CDCAEAB2582246A006D1420 /* WDAudioMuteSwitchManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDAudioMuteSwitchManager.m; sourceTree = "<group>"; };
+		4CDCAEBC258227C7006D1420 /* detection.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = detection.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				4CDCAE792582242C006D1420 /* ViewController.m */,
 				4CDCAEAA2582246A006D1420 /* WDAudioMuteSwitchManager.h */,
 				4CDCAEAB2582246A006D1420 /* WDAudioMuteSwitchManager.m */,
+				4CDCAEBC258227C7006D1420 /* detection.aiff */,
 				4CDCAE7B2582242C006D1420 /* Main.storyboard */,
 				4CDCAE7E25822430006D1420 /* Assets.xcassets */,
 				4CDCAE8025822430006D1420 /* LaunchScreen.storyboard */,
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CDCAE8225822430006D1420 /* LaunchScreen.storyboard in Resources */,
+				4CDCAEBD258227C7006D1420 /* detection.aiff in Resources */,
 				4CDCAE7F25822430006D1420 /* Assets.xcassets in Resources */,
 				4CDCAE7D2582242C006D1420 /* Main.storyboard in Resources */,
 			);

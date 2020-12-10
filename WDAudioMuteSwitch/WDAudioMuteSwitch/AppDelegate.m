@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,36 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    float scale = [[UIScreen mainScreen] scale];
+    CGRect bounds = [[UIScreen mainScreen] bounds];
+    UIWindow *window = [[UIWindow alloc] initWithFrame: bounds];
+
+    
+    // Use RootViewController to manage CCEAGLView
+    ViewController *vc = [[ViewController alloc] init];
+#ifdef NSFoundationVersionNumber_iOS_7_0
+    vc.automaticallyAdjustsScrollViewInsets = NO;
+    vc.extendedLayoutIncludesOpaqueBars = NO;
+    vc.edgesForExtendedLayout = UIRectEdgeAll;
+#else
+    vc.wantsFullScreenLayout = YES;
+#endif
+    // Set RootViewController to window
+    if ( [[UIDevice currentDevice].systemVersion floatValue] < 6.0)
+    {
+        // warning: addSubView doesn't work on iOS6
+        [window addSubview: vc.view];
+    }
+    else
+    {
+        // use this method on ios6
+        [window setRootViewController:vc];
+    }
+    
+    [window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
